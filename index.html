@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendTribe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="nav-bar">
+                <div class="nav-logo">
+                    <h1>TrendTribe</h1>
+                </div>
+                <div class="nav-options">
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <a id="blog" onclick="blogs()">Blog</a>
+                    <a id="about" onclick="abouts()">About Us</a>
+                    <a id="contact" onclick="contacts()">Contact Us</a>
+                    <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- center part -->
+
+    <div class="hero-msg">
+        <div class="hero-text">
+            <h5>Trending..</h5>
+            <h1>Super Value Deals</h1>
+            <h1>On All Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing quod earum.</p>
+            <button>Explore</button>
+        </div>
+        <div class="hero-img"></div>
+
+    </div>
+
+    <!-- men wear -->
+    <div class="cloth-wear">
+        <div class="heading1">
+            <h1>Trends <span>Men's Wear</span></h1>
+        </div>
+        <div class="men-boxes">
+            <div class="box1">
+                <div class="box-img1"></div>
+                <h2>Trending Cotton Shirts</h2>
+                <div class="star">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+                </div>
+                <button onclick="show(this)">Add To Cart</button>
+            </div>
+            <div class="box2">
+                <div class="box-img2"></div>
+                <h2>Trending Cotton Shirts</h2>
+                <div class="star">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+                </div>
+                <button onclick="show(this)">Add To Cart</button>
+            </div>
+            <div class="box3">
+                <div class="box-img3"></div>
+                <h2>Trending Cotton Shirts</h2>
+                <div class="star">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+                </div>
+                <button onclick="show(this)">Add To Cart</button>
+            </div>
+        </div>
+
+    </div>
+    
+
+        <!-- women wear -->
+        <div class="cloth-wear" id="trend2">
+            <div class="heading2">
+                <h1>Trends <span>Women's Wear</span></h1>
+            </div>
+            <div class="women-boxes">
+                <div class="box4">
+                    <div class="box-img4"></div>
+                    <h2>Trending Dresses</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+                    </div>
+                    <button onclick="show(this)">Add To Cart</button>
+                </div>
+                <div class="box5">
+                    <div class="box-img5"></div>
+                    <h2>Trending Dresses</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+                    </div>
+                    <button onclick="show(this)">Add To Cart</button>
+                </div>
+                <div class="box6">
+                    <div class="box-img6"></div>
+                    <h2>Trending Dresses</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+                    </div>
+                    <button onclick="show(this)">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- blog content -->
+        
+        <div class="trend"> 
+            <div class="blog-head">
+                <h1>Trends Top  <span> Blog's</span> </h1>
+            </div>
+            <div class="blog-box">
+                <div class="box7">
+                    <div class="box-img7"></div>
+                    <div class="box7-data">
+                        <h3>Trending Women Dresses</h3>
+                    <a class="box7-button" href="https://influencermarketinghub.com/best-fashion-blogs/">Read More</a>
+                    </div>
+                    
+                    
+                </div>
+                <div class="box8">
+                    <div class="box-img8"></div>
+                    <div class="box8-data">
+                        <h3>Trending Mens Clothes</h3>
+                    <a class="box8-button" href="https://www.apetogentleman.com/">Read More</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- about us -->
+       <div class="foot1">
+        <div class="about-us">
+            <div class="know-us">
+                <h2>#Know Us..</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores deserunt doloribus.</p>
+            </div>
+
+        </div>  
+        
+        <div class="know-content">
+            <div class="about-img"></div>
+            <div class="about-content">
+                    <h2>Who we are ?</h2><br/>
+                    <p>Lorem ipsum dolor Shit Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sed reprehenderit earum aperiam minus voluptas reiciendis aut? Officiis corporis ex reiciendis ipsum ullam id alias sed similique, quas, illo dolorem?</p>
+            </div>
+        </div>
+       </div>
+
+        <!-- contact us -->
+        <div class="foot2">
+            <div class="connect">
+                <div class="connect-text">
+                    <h2>#Let's Connect..</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores deserunt doloribus.</p>
+                </div>
+    
+            </div>  
+            
+            <div class="connect2">
+                <div class="connect-text2">
+                        <h2>Visit Our Office or Contact Us Today</h2><br/>
+                        <br/><p>Address:Dublin Park,England NewYork</p>
+                        <br/><p>Contact:abc@gmail.com</p>
+                        <br/><p>Phone no.:946000000X</p>
+                </div>
+                <div class="map-img"></div>
+            </div>
+    
+            <div class="form">
+                <form>
+                    <div class="form-data">
+                        <h1>Connect With Us. Fill Form</h1><br/>
+                    <input type="text" placeholder="Enter Your FirstName"><br><br>
+                    <input type="text" placeholder="Enter Your LastName"><br><br>
+                    <input type="text" placeholder="Enter Your Email"><br><br>
+                    <input type="number" placeholder="Enter Your Number"><br><br>
+                    <input type="text" placeholder="Enter Your Address"><br><br>
+                    <button class="form-button">Submit</button>
+                    </div> 
+                </form>
+            </div>
+        </div>
+
+
+
+        <!-- cart item -->
+        <div class="cart">
+            <img id="newImg">
+            <div class="cart-img"></div>
+            <div class="cart-data">
+                <h1>Trends Offer:Trending Products</h1><br/>
+                <h2>Special Offer</h2><br/>
+                <h2>$11</h2><br/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicin</p><br/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicin</p><br/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicin</p><br/>
+                <div class="btn">
+                    <button>Buy Now</button>
+                    <button onclick="addcart()">Add To Cart</button><br><br>
+                </div>
+                <button class="back">Back</button>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="contact-us">
+                <div class="sign-up">
+                    <h2>Sign Up for NewsLetter</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Special Offers</p>
+                </div>    
+                <div class="input-text">    
+                    <input type="text" placeholder="Enter Email Address">
+                    <button>Sign Up</button>
+                </div>
+            </div>
+            <div class="contact-us2">
+                <div class="list1">
+                    <ul>
+                        <h2>TrendTribe</h2><br>
+                        <li>Service</li><br>
+                        <li>Customer</li><br>
+                        <li>Satisfaction</li><br>
+                    </ul>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <h3>About Us</h3><br>
+                        <li>Address</li><br>
+                        <li>Service</li><br>
+                        <li>Customer</li><br>
+                        <li>Satisfaction</li><br>
+                    </ul>
+                </div>
+                <div class="list3">
+                    <ul>
+                        <h3>Contact</h3><br>
+                        <li>Ph no.: 982XXXXXX0</li><br>
+                        <li>Customer</li><br>
+                        <li>Comming Up..</li><br>
+                        <li>New Arrival</li><br>
+                    </ul>
+                </div>
+                <div class="list4">
+                    <ul>
+                        <h3>Trending</h3><br>
+                        <li>Service</li><br>
+                        <li>Customer</li><br>
+                        <li>Shops</li><br>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer1">
+                <div class="foot-text">
+                    <p>Conditions of Use & Sale</p>
+                    <p>Privacy Notice</p>
+                    <p>Your Ads Privacy Choices</p>
+                </div>
+                <div class="copyright">
+                    © 19XX-20XX, TrendTribe.com, Inc. or its affiliates 
+                </div>
+               </div>
+        </footer>
+    <script src="app.js"></script>    
+    </body>
+</html>
